@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+:root {
+  --color-background: #0d090f;
+  --color-text: #f3ecec;
+}
+
+@font-face {
+  font-family: 'Outfit-ExtraLight';
+  src: url('Outfit-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit-Medium';
+  src: url('Outfit-Medium.ttf') format('truetype');
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Outfit-ExtraLight', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
