@@ -11,87 +11,87 @@
 
   <main>
     <section>
-      <img src="Witch01.png" alt="Witch 1" />
+      <img src="../assets/pics/Witch01.png" alt="Witch 1" />
     </section>
 
     <section>
-      <img src="Witch02.jpg" alt="Witch 2" />
+      <img src="../assets/pics/Witch02.jpg" alt="Witch 2" />
     </section>
 
     <section>
-      <img src="Witch03.jpg" alt="Witch 3" />
+      <img src="../assets/pics/Witch03.jpg" alt="Witch 3" />
     </section>
 
     <section>
-      <img src="Witch04.jpg" alt="Witch 4" />
+      <img src="../assets/pics/Witch04.jpg" alt="Witch 4" />
     </section>
 
     <section>
-      <img src="Beast.jpg" alt="Beast" />
+      <img src="../assets/pics/Beast.jpg" alt="Beast" />
     </section>
 
     <section>
-      <img src="Werewolf.jpg" alt="Werewolf" />
+      <img src="../assets/pics/Werewolf.jpg" alt="Werewolf" />
     </section>
 
     <section>
-      <img src="Warrior01.png" alt="Warrior 1" />
+      <img src="../assets/pics/Warrior01.png" alt="Warrior 1" />
     </section>
 
     <section>
-      <img src="Warrior02.png" alt="Warrior 2" />
+      <img src="../assets/pics/Warrior02.png" alt="Warrior 2" />
     </section>
 
     <section>
-      <img src="Warrior03.png" alt="Warrior 3" />
+      <img src="../assets/pics/Warrior03.png" alt="Warrior 3" />
     </section>
 
     <section>
-      <img src="Teela01.png" alt="Teela 1" />
+      <img src="../assets/pics/Teela01.png" alt="Teela 1" />
     </section>
 
     <section>
-      <img src="Teela02.png" alt="Teela 2" />
+      <img src="../assets/pics/Teela02.png" alt="Teela 2" />
     </section>
 
     <section>
-      <img src="Aladdin.jpg" alt="Aladdin" />
+      <img src="../assets/pics/Aladdin.jpg" alt="Aladdin" />
     </section>
 
     <section>
-      <img src="Joe.jpg" alt="Joe" />
+      <img src="../assets/pics/Joe.jpg" alt="Joe" />
     </section>
 
     <section>
-      <img src="Lordmacintosh.jpg" alt="Lordmacintosh" />
+      <img src="../assets/pics/Lordmacintosh.jpg" alt="Lordmacintosh" />
     </section>
 
     <section>
-      <img src="Bennevine01.png" alt="Bennevine 1" />
+      <img src="../assets/pics/Bennevine01.png" alt="Bennevine 1" />
     </section>
 
     <section>
-      <img src="Bennevine02.png" alt="Bennevine 2" />
+      <img src="../assets/pics/Bennevine02.png" alt="Bennevine 2" />
     </section>
 
     <section>
-      <img src="Bennevine03.png" alt="Bennevine 3" />
+      <img src="../assets/pics/Bennevine03.png" alt="Bennevine 3" />
     </section>
 
     <section>
-      <img src="Bennevine04.png" alt="Bennevine 4" />
+      <img src="../assets/pics/Bennevine04.png" alt="Bennevine 4" />
     </section>
 
     <section>
-      <img src="Bennevine05.png" alt="Bennevine 5" />
+      <img src="../assets/pics/Bennevine05.png" alt="Bennevine 5" />
     </section>
 
     <section>
-      <img src="Bennevine06.png" alt="Bennevine 6" />
+      <img src="../assets/pics/Bennevine06.png" alt="Bennevine 6" />
     </section>
 
     <section>
-      <img src="Bennevine07.png" alt="Bennevine 7" />
+      <img src="../assets/pics/Bennevine07.png" alt="Bennevine 7" />
     </section>
   </main>
 </template>
