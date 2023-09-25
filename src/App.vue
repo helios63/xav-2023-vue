@@ -1,6 +1,5 @@
 <script setup>
 import Header from './components/Header.vue'
-import { animateElements } from 'src/assets/js/animate.js'
 </script>
 
 <template>
