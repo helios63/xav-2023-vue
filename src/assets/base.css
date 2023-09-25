@@ -13,12 +13,12 @@
 
 @font-face {
   font-family: 'Outfit-ExtraLight';
-  src: url('Outfit-ExtraLight.ttf') format('truetype');
+  src: url('../../public/Outfit-ExtraLight.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Outfit-Medium';
-  src: url('Outfit-Medium.ttf') format('truetype');
+  src: url('../../public/Outfit-Medium.ttf') format('truetype');
 }
 
 body {
