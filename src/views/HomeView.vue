@@ -1,102 +1,107 @@
-<script setup>
-// import TheWelcome from '../components/TheWelcome.vue'
-</script>
+<script setup></script>
 
 <template>
-  <div class="space"></div>
-
   <div class="intro">
     <!-- THree.js -->
   </div>
 
   <main>
-    <section>
-      <img loading="lazy" src="../assets/pics/Witch01.png" alt="Witch 1" />
-    </section>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Witch01.png" alt="Witch 1" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Witch02.jpg" alt="Witch 2" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Witch02.jpg" alt="Witch 2" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Witch03.jpg" alt="Witch 3" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Witch03.jpg" alt="Witch 3" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Witch04.jpg" alt="Witch 4" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Witch04.jpg" alt="Witch 4" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Beast.jpg" alt="Beast" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Beast.jpg" alt="Beast" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Werewolf.jpg" alt="Werewolf" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Werewolf.jpg" alt="Werewolf" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Warrior01.png" alt="Warrior 1" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Warrior01.png" alt="Warrior 1" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Warrior02.png" alt="Warrior 2" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Warrior02.png" alt="Warrior 2" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Warrior03.png" alt="Warrior 3" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Warrior03.png" alt="Warrior 3" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Teela01.png" alt="Teela 1" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Teela01.png" alt="Teela 1" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Teela02.png" alt="Teela 2" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Teela02.png" alt="Teela 2" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Aladdin.jpg" alt="Aladdin" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Aladdin.jpg" alt="Aladdin" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Joe.jpg" alt="Joe" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Joe.jpg" alt="Joe" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Lordmacintosh.jpg" alt="Lordmacintosh" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Lordmacintosh.jpg" alt="Lordmacintosh" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Bennevine01.png" alt="Bennevine 1" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Bennevine01.png" alt="Bennevine 1" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Bennevine02.png" alt="Bennevine 2" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Bennevine02.png" alt="Bennevine 2" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Bennevine03.png" alt="Bennevine 3" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Bennevine03.png" alt="Bennevine 3" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Bennevine04.png" alt="Bennevine 4" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Bennevine04.png" alt="Bennevine 4" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Bennevine05.png" alt="Bennevine 5" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Bennevine05.png" alt="Bennevine 5" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Bennevine06.png" alt="Bennevine 6" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Bennevine06.png" alt="Bennevine 6" />
+        </section>
 
-    <section>
-      <img loading="lazy" src="../assets/pics/Bennevine07.png" alt="Bennevine 7" />
-    </section>
+        <section data-speed="clamp(0, 0.5, 1)">
+          <img src="../assets/pics/Bennevine07.png" alt="Bennevine 7" />
+        </section>
+      </div>
+    </div>
   </main>
 </template>
 
 <script>
+import { gsap } from 'gsap'
+import { ScrollSmoother } from 'gsap/ScrollSmoother'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
+
 import { ref, onMounted } from 'vue'
 import { animate, inView } from 'motion'
 import {
@@ -121,6 +126,7 @@ export default {
     // Code to run when the component is mounted (similar to the "mounted" lifecycle hook)
     this.setupThree()
     this.setupAnimations()
+    this.setupScrollSmoother()
   },
   methods: {
     setupAnimations() {
@@ -238,16 +244,18 @@ export default {
       render()
       window.addEventListener('resize', resize)
       window.addEventListener('scroll', scroll)
+    },
+    setupScrollSmoother() {
+      ScrollSmoother.create({
+        smooth: 1,
+        effects: true
+      })
     }
   }
 }
 </script>
 
 <style scoped>
-.space {
-  width: 100%;
-  min-height: 100vh;
-}
 
 main {
   max-width: 1180px;
@@ -262,6 +270,10 @@ div.intro {
   z-index: -1;
 }
 
+#smooth-content {
+  margin-top: 150vh;
+}
+
 section {
   padding: 0 1rem;
   margin: 1rem 0;
@@ -269,11 +281,15 @@ section {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
 
   @media (min-width: 767px) {
     margin: 6rem 0;
+  }
+
+  &:nth-of-type(even){
+    justify-content: flex-end;
   }
 
   & img {
@@ -282,6 +298,7 @@ section {
     padding: 0;
 
     @media (min-width: 1024px) {
+      width: 66%;
       padding: 0 4rem;
     }
 
