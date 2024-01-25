@@ -1,7 +1,9 @@
 <script setup>
-import Header from './components/Header.vue'
+import TheHeader from './components/TheHeader.vue'
+import TheBackground from './components/TheBackground.vue'
 </script>
 
 <template>
-  <Header />
+  <TheHeader />
+  <TheBackground />
 </template>

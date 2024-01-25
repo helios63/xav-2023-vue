@@ -4,7 +4,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <h1>Xavi Noguera</h1>
+    <div class="head">
+      <h1>Xavi Noguera</h1>
+      <h2>3D Character Artist</h2>
+    </div>
     <nav>
       <!-- <RouterLink to="/">Projects</RouterLink>
       <RouterLink to="/about">About</RouterLink> -->
@@ -18,22 +21,26 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style lang="scss" scoped>
 header {
-  position: sticky;
-  top: 4px;
-  left: 0;
-  width: calc(100% - 8px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
   z-index: 99;
 
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: baseline;
-  margin: 4px;
-  padding: 4px 8px;
-  border-radius: 8px;
-  background-color: #0d090f13;
-  backdrop-filter: blur(35px);
+  padding: 8px 16px;
 
-  & h1 {
+  @media (min-width: 1024px) {
+    width: calc(1 / 4 * 100%);
+    padding: 8px;
+  }
+
+  h1,
+  h2 {
     font-size: 12px;
     text-transform: uppercase;
 
@@ -53,8 +60,8 @@ header {
       text-transform: uppercase;
 
       @media (min-width: 1024px) {
-      font-size: 16px;
-    }
+        font-size: 16px;
+      }
     }
   }
 }
