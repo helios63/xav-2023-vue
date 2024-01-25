@@ -2,87 +2,87 @@
   <div id="smooth-wrapper">
     <div id="smooth-content">
       <section>
-        <img src="../assets/pics/Witch01.png" alt="Witch 1" />
+        <img loading="lazy" src="../assets/pics/Witch01.png" alt="Witch 1" />
       </section>
 
       <section>
-        <img src="../assets/pics/Witch02.jpg" alt="Witch 2" />
+        <img loading="lazy" src="../assets/pics/Witch02.jpg" alt="Witch 2" />
       </section>
 
       <section>
-        <img src="../assets/pics/Witch03.jpg" alt="Witch 3" />
+        <img loading="lazy" src="../assets/pics/Witch03.jpg" alt="Witch 3" />
       </section>
 
       <section>
-        <img src="../assets/pics/Witch04.jpg" alt="Witch 4" />
+        <img loading="lazy" src="../assets/pics/Witch04.jpg" alt="Witch 4" />
       </section>
 
       <section>
-        <img src="../assets/pics/Beast.jpg" alt="Beast" />
+        <img loading="lazy" src="../assets/pics/Beast.jpg" alt="Beast" />
       </section>
 
       <section>
-        <img src="../assets/pics/Werewolf.jpg" alt="Werewolf" />
+        <img loading="lazy" src="../assets/pics/Werewolf.jpg" alt="Werewolf" />
       </section>
 
       <section>
-        <img src="../assets/pics/Warrior01.png" alt="Warrior 1" />
+        <img loading="lazy" src="../assets/pics/Warrior01.png" alt="Warrior 1" />
       </section>
 
       <section>
-        <img src="../assets/pics/Warrior02.png" alt="Warrior 2" />
+        <img loading="lazy" src="../assets/pics/Warrior02.png" alt="Warrior 2" />
       </section>
 
       <section>
-        <img src="../assets/pics/Warrior03.png" alt="Warrior 3" />
+        <img loading="lazy" src="../assets/pics/Warrior03.png" alt="Warrior 3" />
       </section>
 
       <section>
-        <img src="../assets/pics/Teela01.png" alt="Teela 1" />
+        <img loading="lazy" src="../assets/pics/Teela01.png" alt="Teela 1" />
       </section>
 
       <section>
-        <img src="../assets/pics/Teela02.png" alt="Teela 2" />
+        <img loading="lazy" src="../assets/pics/Teela02.png" alt="Teela 2" />
       </section>
 
       <section>
-        <img src="../assets/pics/Aladdin.jpg" alt="Aladdin" />
+        <img loading="lazy" src="../assets/pics/Aladdin.jpg" alt="Aladdin" />
       </section>
 
       <section>
-        <img src="../assets/pics/Joe.jpg" alt="Joe" />
+        <img loading="lazy" src="../assets/pics/Joe.jpg" alt="Joe" />
       </section>
 
       <section>
-        <img src="../assets/pics/Lordmacintosh.jpg" alt="Lordmacintosh" />
+        <img loading="lazy" src="../assets/pics/Lordmacintosh.jpg" alt="Lordmacintosh" />
       </section>
 
       <section>
-        <img src="../assets/pics/Bennevine01.png" alt="Bennevine 1" />
+        <img loading="lazy" src="../assets/pics/Bennevine01.png" alt="Bennevine 1" />
       </section>
 
       <section>
-        <img src="../assets/pics/Bennevine02.png" alt="Bennevine 2" />
+        <img loading="lazy" src="../assets/pics/Bennevine02.png" alt="Bennevine 2" />
       </section>
 
       <section>
-        <img src="../assets/pics/Bennevine03.png" alt="Bennevine 3" />
+        <img loading="lazy" src="../assets/pics/Bennevine03.png" alt="Bennevine 3" />
       </section>
 
       <section>
-        <img src="../assets/pics/Bennevine04.png" alt="Bennevine 4" />
+        <img loading="lazy" src="../assets/pics/Bennevine04.png" alt="Bennevine 4" />
       </section>
 
       <section>
-        <img src="../assets/pics/Bennevine05.png" alt="Bennevine 5" />
+        <img loading="lazy" src="../assets/pics/Bennevine05.png" alt="Bennevine 5" />
       </section>
 
       <section>
-        <img src="../assets/pics/Bennevine06.png" alt="Bennevine 6" />
+        <img loading="lazy" src="../assets/pics/Bennevine06.png" alt="Bennevine 6" />
       </section>
 
       <section>
-        <img src="../assets/pics/Bennevine07.png" alt="Bennevine 7" />
+        <img loading="lazy" src="../assets/pics/Bennevine07.png" alt="Bennevine 7" />
       </section>
     </div>
   </div>
@@ -107,13 +107,25 @@ export default {
     animate('.intro', { opacity: [0, 1] }, { duration: 2, delay: 1 })
 
     inView('section', ({ target }) => {
-      animate(target, { opacity: 1, y: 0 }, { duration: 0.8, delay: 0.5 })
+      animate(target, { opacity: 1, y: 0 }, { duration: 0.5, delay: 0.5 })
     })
 
     ScrollSmoother.create({
       smooth: 2,
       effects: true,
       smoothTouch: 0.1
+    })
+
+    var images = document.querySelectorAll('img')
+
+    images.forEach((element) => {
+      if (element.complete) {
+        element.classList.add('loaded')
+      } else {
+        element.onload = function () {
+          element.classList.add('loaded')
+        }
+      }
     })
   }
 }
@@ -138,11 +150,18 @@ export default {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+    background-color: rgb(18, 17, 17);
 
     img {
       width: 100%;
       height: auto;
       padding: 0;
+      opacity: 0;
+      transition: opacity 300ms ease;
+
+      &.loaded {
+        opacity: 1;
+      }
     }
 
     @media (min-width: 1024px) {
