@@ -1,6 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import MenuList from './MenuList.vue';
 </script>
+
 
 <template>
   <header>
@@ -8,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <h1>Xavi Noguera</h1>
       <h2>3D Character Artist</h2>
     </div>
+    <!-- <MenuList title="Witch"/> -->
     <nav>
       <!-- <RouterLink to="/">Projects</RouterLink>
       <RouterLink to="/about">About</RouterLink> -->
@@ -15,8 +18,6 @@ import { RouterLink, RouterView } from 'vue-router'
       <a href="mailto:xavinosuke@gmail.com">Contact</a>
     </nav>
   </header>
-
-  <RouterView />
 </template>
 
 <style lang="scss" scoped>

@@ -6,4 +6,5 @@ import TheBackground from './components/TheBackground.vue'
 <template>
   <TheHeader />
   <TheBackground />
+  <RouterView />
 </template>

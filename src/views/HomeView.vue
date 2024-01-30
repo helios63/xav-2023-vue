@@ -2,19 +2,19 @@
   <div id="smooth-wrapper">
     <div id="smooth-content">
       <section>
-        <img loading="lazy" src="../assets/pics/Witch01.png" alt="Witch 1" />
+        <img id="witch-1" loading="lazy" src="../assets/pics/Witch01.png" alt="Witch 1" />
       </section>
 
       <section>
-        <img loading="lazy" src="../assets/pics/Witch02.jpg" alt="Witch 2" />
+        <img id="witch-2" loading="lazy" src="../assets/pics/Witch02.jpg" alt="Witch 2" />
       </section>
 
       <section>
-        <img loading="lazy" src="../assets/pics/Witch03.jpg" alt="Witch 3" />
+        <img id="witch-3" loading="lazy" src="../assets/pics/Witch03.jpg" alt="Witch 3" />
       </section>
 
       <section>
-        <img loading="lazy" src="../assets/pics/Witch04.jpg" alt="Witch 4" />
+        <img id="witch-4" loading="lazy" src="../assets/pics/Witch04.jpg" alt="Witch 4" />
       </section>
 
       <section>
